@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+    justify-content: left;
+}
+.heading2 {
+    color: #418555;
+    font-weight: bolder;
+    padding-bottom: 2%;  
+    font-size: 40px;
+}
+img {
+    padding-bottom: 2%;
+    border-radius: 8px;
+    height: 150px;
+
+
+}
+p {
+   line-height: 30px
+}

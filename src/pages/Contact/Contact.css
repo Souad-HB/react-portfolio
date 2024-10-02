@@ -1,0 +1,47 @@
+.alignment {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  width: 150%;
+}
+
+.heading2 {
+  color: #418555;
+  font-weight: bolder;
+  padding-bottom: 2%;
+  font-size: 40px;
+}
+
+#contact-button {
+  background-color: #786b6c;
+  color: floralwhite;
+}
+
+.form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150%;
+  /* margin: 0; */
+}
+.textarea-height {
+  height: 150px;
+}
+
+.input-label {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  line-height: 20px;
+}

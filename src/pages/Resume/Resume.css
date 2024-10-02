@@ -1,0 +1,9 @@
+.resume-link {
+  text-decoration: none;
+  color: #786b6c;
+  transition: background-color 0.3s ease;
+
+}
+.resume-link:hover {
+  color: #555;
+}
