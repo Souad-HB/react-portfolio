@@ -5,7 +5,23 @@ import { FaGithub } from "react-icons/fa"; // github Icon from React
 const Project = (props) => {
   return (
     <div>
-      <Card style={{ padding: "25px" }}>
+      <Card
+        style={{
+          padding: "25px",
+          backgroundColor: "transparent",
+          border: "2px solid #041323",
+          transition: "transform 0.2s",
+          opacity: "0.8",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.02)";
+          e.currentTarget.style.opacity = "1";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.style.opacity = "0.8";
+        }}
+      >
         <Card.Img variant="top" src={props.image} alt={props.title} />
         <Card.Body>
           <Card.Title
@@ -19,8 +35,9 @@ const Project = (props) => {
               target="_blank"
               style={{
                 fontWeight: "bold",
-                fontSize: "15px",
-                color: "black",
+                fontSize: "20px",
+                color: "white",
+                textDecoration: "none",
               }}
             >
               {props.title}
@@ -33,7 +50,13 @@ const Project = (props) => {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <FaGithub style={{ fontSize: "25px", alignItems: "center" }} />
+              <FaGithub
+                style={{
+                  fontSize: "30px",
+                  alignItems: "center",
+                  textDecoration: "none",
+                }}
+              />
             </a>
           </Card.Text>
         </Card.Body>

@@ -1,77 +1,52 @@
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNode,
+  FaDatabase,
+  FaMobileAlt,
+  FaBootstrap,
+} from "react-icons/fa";
+import { SiExpress, SiMysql, SiMongodb } from "react-icons/si";
 import "./Resume.css";
 
 const Resume = () => {
   return (
     <div>
-      <h2
-        style={{
-          color: "#418555",
-          fontWeight: "bolder",
-          paddingBottom: "2%",
-          fontSize: "40px",
-        }}
-      >
-        Resume
-      </h2>
-      <p>
+      <p style={{ paddingTop: "25px", textAlign: "center", paddingBottom: "50px" }}>
         Check out my &nbsp;
         <a
           href="../assets/SouadHB-Resume.docx"
           download
           className="resume-link"
         >
-          Resume
+          <i>Resume</i>
         </a>
       </p>
-      <h4
-        style={{
-          display: "flex",
-          justifyContent: "left",
-          textDecoration: "underline",
-          color: "#786b6c",
-        }}
-      >
-        Front-end Proficiencies
-      </h4>
-      <p
-        style={{
-          display: "flex",
-          justifyContent: "left",
-          paddingRight: "100px",
-        }}
-      >
-        - HTML
-        <br></br>- CSS
-        <br></br>- JavaScript
-        <br></br>- Responsive Design
-        <br></br>- React
-        <br></br>- Bootstrap
-      </p>
-      <h4
-        style={{
-          display: "flex",
-          justifyContent: "left",
-          textDecoration: "underline",
-          color: "#786b6c",
-        }}
-      >
-        Back-end Proficiencies
-      </h4>
-      <p
-        style={{
-          display: "flex",
-          justifyContent: "left",
-          paddingRight: "80px",
-        }}
-      >
-        - HTML
-        <br></br>- API's
-        <br></br>- Node
-        <br></br>- Express
-        <br></br>- SQL
-        <br></br>- MongoDB
-        <br></br>- REST
-      </p>
+      <div className="proficiencies-container">
+        <div>
+          <h4 className="proficiency-title">Front-end Proficiencies</h4>
+          <div className="proficiency-logos">
+            <FaHtml5 title="HTML5" />
+            <FaCss3Alt title="CSS3" />
+            <FaJsSquare title="JavaScript" />
+            <FaMobileAlt title="Responsive Design" />
+            <FaReact title="React" />
+            <FaBootstrap title="Bootstrap" />
+          </div>
+        </div>
+        <div>
+          <h4 className="proficiency-title">Back-end Proficiencies</h4>
+          <div className="proficiency-logos">
+            <FaNode title="Node.js" />
+            <SiExpress title="Express.js" />
+            <SiMysql title="MySQL" />
+            <SiMongodb title="MongoDB" />
+            <FaDatabase title="SQL" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

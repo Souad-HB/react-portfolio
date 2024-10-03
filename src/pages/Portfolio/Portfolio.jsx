@@ -51,8 +51,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div>
-      <h2 className="heading2">Portfolio</h2>
+    <div style={{paddingTop: "20px", paddingBottom: "120px"}}>
       <Row xs={1} md={3} className="g-4">
         {projects.map((project, index) => (
           <Col key={index}>

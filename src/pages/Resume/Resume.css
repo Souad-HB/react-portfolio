@@ -1,9 +1,38 @@
 .resume-link {
   text-decoration: none;
-  color: #786b6c;
-  transition: background-color 0.3s ease;
-
+  transition: background-color 0.3s ease, color0/3s ease;
 }
 .resume-link:hover {
-  color: #555;
+  text-decoration: none;
+  color: white;
+}
+.proficiencies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.proficiency-title {
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+
+.proficiency-logos {
+  display: flex;
+  gap: 10px; /* Space between the logos */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.proficiency-logos svg {
+  font-size: 40px; /* Size of the icons */
+  color: #041323; /* Color for the icons */
+  transition: transform 0.3s ease;
+  flex: 1 1 30%;
+}
+
+.proficiency-logos svg:hover {
+  transform: scale(1.1); /* Scale up on hover */
 }
