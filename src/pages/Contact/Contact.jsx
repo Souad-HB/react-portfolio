@@ -60,7 +60,6 @@ const Contact = () => {
 
   return (
     <div className="alignment">
-      <h2 className="heading2">Contact</h2>
       <form className="form" onSubmit={handleFormSubmit}>
         <label className="input-label">Name: </label>
         <input
