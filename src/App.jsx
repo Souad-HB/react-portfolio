@@ -8,10 +8,11 @@ import AboutMe from "./pages/AboutMe/AboutMe";
 import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume/Resume";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <Portfolio />
+    <Footer />
   )
   // <Header />
   // <Outlet />;

@@ -1,0 +1,25 @@
+.footer-container {
+  background-color: #041323;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+.social-link {
+  background-color: white;
+  color: #041323;
+  margin: 2px;
+  padding: 4px 2px 6px 2px;
+}
+
+.social-link:hover {
+  cursor: pointer;
+  color: #041323;
+}

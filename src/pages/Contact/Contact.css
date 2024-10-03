@@ -4,6 +4,9 @@
   padding-left: 0.5%;
   padding-right: 0.5%;
   width: 150%;
+  margin-left: 3%;
+  margin-right: 3%; 
+  padding: 0 1%; 
 }
 
 .heading2 {
@@ -28,7 +31,7 @@
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 150%;
+  width: 35%;
   /* margin: 0; */
 }
 .textarea-height {

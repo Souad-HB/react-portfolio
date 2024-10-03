@@ -1,6 +1,11 @@
 .heading2 {
   color: #418555;
   font-weight: bolder;
-  padding-bottom: 2%;
+  padding: 0 2%;
   font-size: 40px;
+}
+
+* {
+  padding: 0 2%;
+  margin: 0 auto;
 }
