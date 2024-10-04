@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Project from "../../components/project/Project.jsx";
+import Project from "../../components/Project/Project.jsx";
 import "./Portfolio.css"
 import weatherDashboardImg from "../../assets/images/weatherdashboard.png";
 import newbieFit from "../../assets/images/NewbieFit.png";
