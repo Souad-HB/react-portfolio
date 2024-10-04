@@ -21,16 +21,18 @@ Once installed:
 - Clone the repository to your local machine
 - Open the terminal and ensure you are in the right path
 - Run the command **npm i** to download the packages
+- Run the command **npm run build**to build the application
 
 ## Usage
 
-Once everything is installed, you could either run the application locally on your machine by running the terminal command: **npm run dev**.
+Once everything is installed, you could either run the application locally on your machine by running the terminal command: **npm start**.
 
-This application is very user intuitive, visit the deployed application, navigate through the different pages using the links in the nav-bar, and view desired content.
+Or, also this application is very user intuitive and already live! visit the deployed application link, navigate through the different pages using the links in the nav-bar, and view desired content.
 
 ## Deployment
 
 Visit this [link](https://effulgent-kelpie-6cd898.netlify.app/) to view the app live!
+
 ## Screenshots
 
 The below screenshots display how the portfolio was setup, along with every page on the nav-bar:

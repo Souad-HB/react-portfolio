@@ -14,6 +14,7 @@
   width: 100%;
 }
 
+/* responsiveness */
 @media screen and (max-width: 870px) {
   h1 {
     font-size: 1rem;

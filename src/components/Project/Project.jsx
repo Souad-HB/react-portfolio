@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa"; // github Icon from React
-import "./Project.css"
+import "./Project.css";
 
 const Project = (props) => {
   return (
     <div>
+      {/* the card element includes an img element, and a body*/}
       <Card
         className="card-style h-100"
         onMouseEnter={(e) => {
@@ -17,8 +18,14 @@ const Project = (props) => {
           e.currentTarget.style.opacity = "0.8";
         }}
       >
-        <Card.Img className="image" variant="top" src={props.image} alt={props.title} />
+        <Card.Img
+          className="image"
+          variant="top"
+          src={props.image}
+          alt={props.title}
+        />
         <Card.Body>
+          {/* the body element includes the title of the project within an anchor and the  github repo link within the react icon*/}
           <Card.Title className="card-title">
             {" "}
             <a
@@ -36,9 +43,7 @@ const Project = (props) => {
               rel="noopener noreferrer"
               className="github-link"
             >
-              <FaGithub
-                className="github-link"
-              />
+              <FaGithub className="github-link" />
             </a>
           </Card.Text>
         </Card.Body>
