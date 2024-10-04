@@ -45,6 +45,8 @@
   color: var(--primary);
 }
 
+/* responsiveness */
+
 @media screen and (max-width: 870px) {
   .navList {
     flex-direction: column;

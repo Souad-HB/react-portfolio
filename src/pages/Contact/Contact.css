@@ -44,6 +44,7 @@
   padding: 4px 8px
 }
 
+/* Responsiveness */
 @media screen and (max-width: 870px) {
   .form input,
 .form textarea {

@@ -35,6 +35,7 @@
   text-decoration: none;
 }
 
+/* Responsiveness */
 @media screen and (max-width: 1131px) {
   .image {
     width: 100%;

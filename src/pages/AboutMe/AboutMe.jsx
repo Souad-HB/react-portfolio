@@ -7,7 +7,6 @@ const AboutMe = () => {
       <h3>Full Stack Developer</h3>
       <img src={photo} alt="Photo of Souad" />
       <div>
-
         <p>
           A 28-year-old software development professional with a background
           in Mechatronics Engineering. After earning my degree in Tunisia and

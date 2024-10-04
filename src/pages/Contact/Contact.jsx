@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Contact.css";
 
 const Contact = () => {
-  // setting 3 state variables for name, email and message using `useState`
+  // setting 4 state variables for name, email, message, and error using `useState`
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");

@@ -1,3 +1,4 @@
+//importing the icons from React
 import {
   FaHtml5,
   FaCss3Alt,
@@ -7,7 +8,7 @@ import {
   FaDatabase,
   FaMobileAlt,
   FaBootstrap,
-} from "react-icons/fa"; //importing the icons from React
+} from "react-icons/fa";
 import { SiExpress, SiMysql, SiMongodb } from "react-icons/si";
 import "./Resume.css";
 
