@@ -24,11 +24,11 @@
     flex-direction: column;
   }
   .header-container {
-    height: 20vh;
+    height: 25vh;
   }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 413px) {
   h1 {
     font-size: 1rem;
     padding-bottom: 15px;
@@ -38,6 +38,6 @@
     flex-direction: column;
   }
   .header-container {
-    height: 20vh;
+    height: 30vh;
   }
 }
