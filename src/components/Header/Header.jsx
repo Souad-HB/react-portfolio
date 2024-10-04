@@ -1,14 +1,13 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 
 function Header() {
   return (
     <header
       className="header-container header-content"
-      style={{ display: "flex" }}
     >
-        <h1 className="name">SOUAD HASSEN</h1>
+      <h1>SOUAD HASSEN</h1>
         <Navigation />
  
     </header>

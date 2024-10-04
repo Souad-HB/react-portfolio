@@ -1,7 +1,8 @@
 import React from "react";
-import Project from "../../components/Project";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Project from "../../components/project/Project.jsx";
+import "./Portfolio.css"
 import weatherDashboardImg from "../../assets/images/weatherdashboard.png";
 import newbieFit from "../../assets/images/NewbieFit.png";
 import portfolioImg from "../../assets/images/portfolio.png";
@@ -51,7 +52,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div style={{paddingTop: "20px", paddingBottom: "120px"}}>
+    <div className="project-display">
       <Row xs={1} md={3} className="g-4">
         {projects.map((project, index) => (
           <Col key={index}>
