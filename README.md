@@ -26,8 +26,11 @@ Once installed:
 
 Once everything is installed, you could either run the application locally on your machine by running the terminal command: **npm run dev**.
 
-This application is very user intuitive, visit the site (linkkkkkkk), navigate through different pages using the links in the nav-bar, and view desired content.
+This application is very user intuitive, visit the deployed application, navigate through the different pages using the links in the nav-bar, and view desired content.
 
+## Deployment
+
+Visit this [link](https://effulgent-kelpie-6cd898.netlify.app/) to view the app live!
 ## Screenshots
 
 The below screenshots display how the portfolio was setup, along with every page on the nav-bar:
