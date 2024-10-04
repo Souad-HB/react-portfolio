@@ -1,0 +1,42 @@
+.card-style {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid var(--quaternary);
+  height: 100%;
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.image {
+  object-fit: cover;
+  height: 200px;
+  width: 200%;
+  margin: 0 auto;
+}
+.card-title {
+  text-align: center;
+}
+.deployed-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--quaternary);
+  text-decoration: none;
+}
+.github-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+}
+
+.github-icon {
+  font-size: 30px;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1131px) {
+  .image {
+    width: 100%;
+  }
+}

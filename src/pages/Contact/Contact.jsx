@@ -93,7 +93,7 @@ const Contact = () => {
           placeholder="message"
         />
         <p className="error">{error}</p>
-        <button id="contact-button" type="submit">
+        <button className="button" type="submit">
           Submit
         </button>
       </form>

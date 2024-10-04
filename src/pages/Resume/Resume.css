@@ -3,32 +3,37 @@
   transition: background-color 0.3s ease, color0/3s ease;
 }
 .resume-link:hover {
-  text-decoration: none;
-  color: white;
+ 
+  background-color: var(--quaternary);
+  color: var(--primary);
+  padding: 3px;
 }
 .proficiencies-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 100px;
   margin-top: 20px;
 }
 
 .proficiency-title {
+  font-size: 20px;
   text-decoration: underline;
-  color: white;
+  color: var(--quaternary);
+  letter-spacing: 2px;
   text-align: center;
 }
 
 .proficiency-logos {
   display: flex;
+  padding-top: 20px;
   gap: 10px; /* Space between the logos */
   flex-wrap: wrap;
   justify-content: center;
 }
 .proficiency-logos svg {
   font-size: 40px; /* Size of the icons */
-  color: #041323; /* Color for the icons */
+  color: var(--quaternary); /* Color for the icons */
   transition: transform 0.3s ease;
   flex: 1 1 30%;
 }

@@ -7,15 +7,22 @@ import {
   FaDatabase,
   FaMobileAlt,
   FaBootstrap,
-} from "react-icons/fa";
+} from "react-icons/fa"; //importing the icons from React
 import { SiExpress, SiMysql, SiMongodb } from "react-icons/si";
 import "./Resume.css";
 
 const Resume = () => {
   return (
     <div>
-      <p style={{ paddingTop: "25px", textAlign: "center", paddingBottom: "50px" }}>
-        Check out my &nbsp;
+      <p
+        style={{
+          paddingTop: "25px",
+          textAlign: "center",
+          paddingBottom: "50px",
+          letterSpacing: "3px",
+        }}
+      >
+        Check out my&nbsp;
         <a
           href="../assets/SouadHB-Resume.docx"
           download
@@ -26,7 +33,7 @@ const Resume = () => {
       </p>
       <div className="proficiencies-container">
         <div>
-          <h4 className="proficiency-title">Front-end Proficiencies</h4>
+          <p className="proficiency-title">Front-end Proficiencies</p>
           <div className="proficiency-logos">
             <FaHtml5 title="HTML5" />
             <FaCss3Alt title="CSS3" />
@@ -37,13 +44,13 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h4 className="proficiency-title">Back-end Proficiencies</h4>
+          <p className="proficiency-title">Back-end Proficiencies</p>
           <div className="proficiency-logos">
             <FaNode title="Node.js" />
             <SiExpress title="Express.js" />
-            <SiMysql title="MySQL" />
-            <SiMongodb title="MongoDB" />
             <FaDatabase title="SQL" />
+            <SiMongodb title="MongoDB" />
+            <SiMysql title="MySQL" />
           </div>
         </div>
       </div>

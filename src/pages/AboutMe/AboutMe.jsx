@@ -3,32 +3,23 @@ import photo from "../../assets/images/photo.jpg";
 
 const AboutMe = () => {
   return (
-    <div style={{paddingTop: "20px"}}>
+    <div style={{ paddingTop: "20px" }}>
+      <h3>Full Stack Developer</h3>
       <img src={photo} alt="Photo of Souad" />
       <div>
+
         <p>
-          I am a passionate and driven 28-year-old software development
-          professional with a background in Mechatronics Engineering. I earned
-          my degree in Tunisia, where my academic journey laid the foundation
-          for my strong interest in technology and robotics. During my time in
-          France, I delved deeper into research on robotics, culminating in the
-          publication of an article on ResearchGate.
-          <br />
-          A few years ago, I relocated to the United States, where I initially
-          began my career as a Project Engineer. Over time, I advanced to roles
-          of increasing responsibility, from Project Lead to my current position
-          as Manager of Software Engineering. My experience here has been
-          transformative, and I've been inspired by the rapid pace of
-          technological innovation.
-          <br />
-          <p>
-            Eager to further expand my expertise in the tech field, I recently
-            completed the Web Development and Coding Bootcamp at the University
-            of Central Florida (UCF), where I developed strong skills in modern
-            web technologies. My journey in both engineering and software
-            development continues to fuel my ambition to create impactful
-            solutions in the ever-evolving world of technology.
-          </p>
+          A 28-year-old software development professional with a background
+          in Mechatronics Engineering. After earning my degree in Tunisia and
+          publishing robotics research in France, I moved to the U.S. to start
+          as a Project Engineer. Over the years, I advanced to my current role
+          as Manager of Software Engineering.
+        </p>
+        <p>
+          Recently, I completed the Web Development and Coding Bootcamp at UCF
+          to further develop my expertise in modern web technologies. My
+          combined experience in engineering and software fuels my passion for
+          creating impactful solutions in the tech industry.
         </p>
       </div>
     </div>
