@@ -8,9 +8,11 @@ import {
   FaDatabase,
   FaMobileAlt,
   FaBootstrap,
+  FaDownload,
 } from "react-icons/fa";
 import { SiExpress, SiMysql, SiMongodb } from "react-icons/si";
 import "./Resume.css";
+const pdfResume = "../../public/SouadHB-Resume.pdf";
 
 const Resume = () => {
   return (
@@ -25,11 +27,13 @@ const Resume = () => {
       >
         Check out my&nbsp;
         <a
-          href="../assets/SouadHB-Resume.docx"
-          download
+          href={pdfResume}
+          download="Souad Hassen Resume"
           className="resume-link"
         >
-          <i>Resume</i>
+          <i>
+            Resume <FaDownload />
+          </i>
         </a>
       </p>
       <div className="proficiencies-container">
