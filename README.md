@@ -31,7 +31,7 @@ Or, also this application is very user intuitive and already live! visit the dep
 
 ## Deployment
 
-Visit this [link](https://effulgent-kelpie-6cd898.netlify.app/Resume) to view the app live!
+Visit this [link](https://effulgent-kelpie-6cd898.netlify.app/) to view the app live!
 
 ## Screenshots
 
