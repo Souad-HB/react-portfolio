@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { SiExpress, SiMysql, SiMongodb } from "react-icons/si";
 import "./Resume.css";
-const pdfResume = "../../public/SouadHB-Resume.pdf";
+const pdfResume = "/SouadHB-Resume.pdf";
 
 const Resume = () => {
   return (
