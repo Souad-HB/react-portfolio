@@ -7,7 +7,7 @@ function Header() {
     <header
       className="header-container header-content"
     >
-      <h1>SOUAD HASSEN</h1>
+      <h1>SOUAD HASSEN - BOUZOUITA</h1>
         <Navigation />
  
     </header>

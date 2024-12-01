@@ -10,9 +10,9 @@ const AboutMe = () => {
         <p>
           A 28-year-old software development professional with a background in
           Mechatronics Engineering. After earning my degree in Tunisia and
-          publishing robotics research in France, I moved to the U.S. to start
-          as a Project Engineer. Over the years, I advanced to my current role
-          as Manager of Software Engineering.
+          publishing a robotics research paper in France, I moved to the U.S. to
+          start my career as a Project Engineer. Over the years, I advanced to
+          my current role as Manager of Software Engineering.
         </p>
         <p className="paddingMobile">
           Recently, I completed the Web Development and Coding Bootcamp at UCF

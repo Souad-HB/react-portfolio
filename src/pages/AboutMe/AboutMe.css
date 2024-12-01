@@ -14,8 +14,8 @@ p {
   color: var(--secondary);
   font-size: 15px;
   word-spacing: 2px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .name {

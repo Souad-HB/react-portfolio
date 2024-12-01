@@ -2,28 +2,34 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Project from "../../components/Project/Project.jsx";
-import "./Portfolio.css"
+import "./Portfolio.css";
 import weatherDashboardImg from "../../assets/images/weatherdashboard.png";
 import newbieFit from "../../assets/images/NewbieFit.png";
 import portfolioImg from "../../assets/images/portfolio.png";
 import marketingImg from "../../assets/images/marketing.png";
 import cssImg from "../../assets/images/css.png";
-import studyGuideImg from "../../assets/images/studyguide.png";
+import catgptImg from "../../assets/images/catgpt.png";
 
 const Portfolio = () => {
   // define the projects array
   const projects = [
     {
-      title: "Weather Dashboard",
-      image: weatherDashboardImg,
-      deployedLink: "https://weather-dashboard-2-zm1t.onrender.com/",
-      githubLink: "https://github.com/Souad-HB/weather-dashboard",
+      title: "CatGPT",
+      image: catgptImg,
+      deployedLink: "https://tomogatch-ai.onrender.com/",
+      githubLink: "https://github.com/OccultParrot/Tomogatch.ai",
     },
     {
       title: "NewbieFit",
       image: newbieFit,
-      deployedLink: "https://coopdouce.github.io/NewbieFit-PJ1/",
-      githubLink: "https://github.com/CoopDouce/NewbieFit-PJ1",
+      deployedLink: "https://souad-hb.github.io/NewbieFit/",
+      githubLink: "https://github.com/Souad-HB/NewbieFit/",
+    },
+    {
+      title: "Weather Dashboard",
+      image: weatherDashboardImg,
+      deployedLink: "https://weather-dashboard-2-zm1t.onrender.com/",
+      githubLink: "https://github.com/Souad-HB/weather-dashboard",
     },
     {
       title: "Marketing advertisement",
@@ -42,12 +48,6 @@ const Portfolio = () => {
       image: cssImg,
       deployedLink: "https://souad-hb.github.io/csssnippet/",
       githubLink: "https://github.com/Souad-HB/csssnippet",
-    },
-    {
-      title: "FrontEnd Study Guide",
-      image: studyGuideImg,
-      deployedLink: "https://souad-hb.github.io/Prework-study-guide/",
-      githubLink: "https://github.com/Souad-HB/Prework-study-guide",
     },
   ];
 
