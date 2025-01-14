@@ -7,12 +7,18 @@ import weatherDashboardImg from "../../assets/images/weatherdashboard.png";
 import newbieFit from "../../assets/images/NewbieFit.png";
 import portfolioImg from "../../assets/images/portfolio.png";
 import marketingImg from "../../assets/images/marketing.png";
-import cssImg from "../../assets/images/css.png";
+import fwob from "../../assets/images/FWOB.png";
 import catgptImg from "../../assets/images/catgpt.png";
 
 const Portfolio = () => {
   // define the projects array
   const projects = [
+    {
+      title: "Friends Without Benefits",
+      image: fwob,
+      deployedLink: "https://friends-without-benefits.onrender.com/",
+      githubLink: "https://github.com/savevsgames/friends-without-benefits",
+    },
     {
       title: "CatGPT",
       image: catgptImg,
@@ -42,12 +48,6 @@ const Portfolio = () => {
       image: portfolioImg,
       deployedLink: "https://souad-hb.github.io/portfoliowebpage/",
       githubLink: "https://github.com/Souad-HB/portfoliowebpage?",
-    },
-    {
-      title: "CSS Cheatsheet",
-      image: cssImg,
-      deployedLink: "https://souad-hb.github.io/csssnippet/",
-      githubLink: "https://github.com/Souad-HB/csssnippet",
     },
   ];
 
