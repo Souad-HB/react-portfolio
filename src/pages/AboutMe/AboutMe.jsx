@@ -8,17 +8,20 @@ const AboutMe = () => {
       <img src={photo} alt="Photo of Souad" />
       <div>
         <p>
-          A 28-year-old software development professional with a background in
-          Mechatronics Engineering. After earning my degree in Tunisia and
+          A 29-year-old software development professional with a background in
+          Mechatronics Engineering and a proven track record in robotics and
+          software engineering. After earning my degree in Tunisia and
           publishing a robotics research paper in France, I moved to the U.S. to
-          start my career as a Project Engineer. Over the years, I advanced to
-          my current role as Manager of Software Engineering.
+          advance my career, progressing from Project Engineer to Manager of
+          Software Engineering.
         </p>
         <p className="paddingMobile">
-          Recently, I completed the Web Development and Coding Bootcamp at UCF
-          to further develop my expertise in modern web technologies. My
-          combined experience in engineering and software fuels my passion for
-          creating impactful solutions in the tech industry.
+          Recently certified as a Full-Stack Developer from the University of
+          Central Florida, I am proficient in modern web technologies such as
+          React, Node.js, SQL, and MongoDB. With expertise in building scalable
+          applications, implementing CI/CD pipelines, and conducting end-to-end
+          testing with Cypress, I combine engineering and software development
+          skills to deliver innovative and robust solutions.
         </p>
       </div>
     </div>
