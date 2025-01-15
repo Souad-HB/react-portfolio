@@ -1,5 +1,9 @@
 .project-display {
     margin-top: 20px;
     margin-bottom: 120px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 20px;
+
 }

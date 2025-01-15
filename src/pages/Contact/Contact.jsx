@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
   // setting 4 state variables for name, email, message, and error using `useState`
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -51,6 +54,20 @@ const Contact = () => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
+    // send email
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+
     // Alert the user their message had been submitted and clear the inputs
     alert(`${name}, your message has been submitted`);
     setName("");
@@ -60,7 +77,7 @@ const Contact = () => {
 
   return (
     <div className="alignment">
-      <form className="form" onSubmit={handleFormSubmit}>
+      <form className="form" ref={form} onSubmit={handleFormSubmit}>
         <label className="input-label">Name: </label>
         <input
           value={name}
