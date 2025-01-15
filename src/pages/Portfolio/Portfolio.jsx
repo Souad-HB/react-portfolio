@@ -52,10 +52,10 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="project-display">
-      <Row xs={1} md={3} className="g-4">
-        {projects.map((project, index) => (
-          <Col key={index}>
+    <div>
+      <div>
+        <div className="project-display">
+          {projects.map((project, index) => (
             <Project
               key={index}
               title={project.title}
@@ -63,9 +63,9 @@ const Portfolio = () => {
               githubLink={project.githubLink}
               deployedLink={project.deployedLink}
             />
-          </Col>
-        ))}
-      </Row>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

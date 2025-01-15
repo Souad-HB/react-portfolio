@@ -1,3 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  width: 100%;
+  text-align: center;
+}
 :root {
   --primary: #dcdcdc;
   --secondary: #000000;
@@ -5,6 +12,7 @@
   --quaternary: #1c1c1c;
   --quinary: #676767;
 }
+
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +63,6 @@ h3 {
   font-weight: bold;
   letter-spacing: 4px;
 }
-
 
 @media screen and (max-width: 765px) {
   .name {
