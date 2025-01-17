@@ -51,7 +51,7 @@ a:hover::after {
 h1 {
   font-size: 40px;
   font-weight: bolder;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
   justify-content: flex-start;
   line-height: 60%;
   margin: 0;

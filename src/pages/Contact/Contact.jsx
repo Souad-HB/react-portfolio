@@ -56,8 +56,8 @@ const Contact = () => {
 
     // send email
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-        publicKey: "YOUR_PUBLIC_KEY",
+      .sendForm("contact_service", "contact_form", form.current, {
+        publicKey: "Chfk2AnA3G8rWK2VR",
       })
       .then(
         () => {
@@ -81,7 +81,7 @@ const Contact = () => {
         <label className="input-label">Name: </label>
         <input
           value={name}
-          name="name"
+          name="user_name"
           onChange={(e) => setName(e.target.value)} // Keep updating the name state
           onBlur={validateName} // Validate when the input loses focus
           type="text"
@@ -92,7 +92,7 @@ const Contact = () => {
         <input
           className="input-box"
           value={email}
-          name="email"
+          name="user_email"
           onChange={(e) => setEmail(e.target.value)} // Keep updating the email state
           onBlur={validateEmail} // Validate when the input loses focus
           type="email"
