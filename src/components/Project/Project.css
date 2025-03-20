@@ -1,25 +1,30 @@
 .card-style {
-  padding: 10px 5px 10px 5px;
+  padding: 5px 5px 5px 5px;
   background-color: transparent;
-  border: 1px solid var(--quaternary);
-  height: 100%;
+  border: none;
+  height: auto;
   display: flex;
-  width: 500px;
-  justify-content: space-between;
+  width: 100%;
+  
 }
-
+.body {
+  padding-top: 2%;
+  width: 100%;
+  height: auto;
+}
 .image {
   object-fit: cover;
-  height: 200px;
-  width: auto;
+  height: 400px;
+  width: 300px;
   margin: auto auto;
 }
 .card-title {
+  margin-bottom: 3%;
   text-align: center;
 }
 .deployed-link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: var(--quaternary);
   text-decoration: none;
 }
@@ -33,6 +38,10 @@
   font-size: 30px;
   align-items: center;
   text-decoration: none;
+}
+
+.links {
+  text-align: left;
 }
 
 /* Responsiveness */

@@ -7,6 +7,7 @@
 }
 .navItem {
   margin-right: 20px;
+  font-size: 20px;
 }
 .link:hover {
   background-size: 100% 100%;

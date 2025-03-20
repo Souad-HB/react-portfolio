@@ -31,7 +31,7 @@ function Navigation() {
             CONTACT
           </Link>
         </li>
-        <li>
+        <li className="navItem">
           {/* Resume page link */}
           <Link
             to="/Resume"
