@@ -4,8 +4,8 @@ import photo from "../../assets/images/photo.jpg";
 const AboutMe = () => {
   return (
     <div style={{ paddingTop: "20px" }}>
-      <h3 style={{paddingBottom: "10px"}}>Full Stack Developer</h3>
-      <img src={photo} alt="Photo of Souad" />
+      <h3 style={{ paddingBottom: "10px" }}>Full Stack Developer</h3>
+      <img src={photo} alt="Photo of Souad" className="image" />
       <div>
         <p style={{ paddingTop: "15px", paddingBottom: "10px" }}>
           A 29-year-old software development professional with a background in
