@@ -1,44 +1,112 @@
 .card-style {
-  padding: 10px 5px 10px 5px;
+  padding: 5px 5px 5px 5px;
   background-color: transparent;
-  border: 1px solid var(--quaternary);
+  border: none;
   height: 100%;
   display: flex;
-  width: 500px;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: none;
 }
 
-.image {
+.project-image {
   object-fit: cover;
-  height: 200px;
-  width: auto;
-  margin: auto auto;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+  border: 1px solid var(--quaternary);
+  border-radius: 5px;
 }
+
 .card-title {
+  margin-bottom: 3%;
   text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--quaternary);
 }
+
 .deployed-link {
   font-weight: bold;
-  font-size: 20px;
-  color: var(--quaternary);
-  text-decoration: none;
-}
-.github-link {
-  text-decoration: none;
+  font-size: 18px;
   color: inherit;
-  font-size: 30px;
-}
-
-.github-icon {
-  font-size: 30px;
+  display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-/* Responsiveness */
+.github-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.deployed-icon {
+  margin-right: 10px;
+  height: 30px;
+}
+
+.about-icon {
+  margin-right: 10px;
+  height: 35px;
+}
+
+.link-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.about-text {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.link-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--quaternary);
+  text-decoration: none;
+}
+
+.about-content {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #333;
+  padding-left: 10px;
+  border-left: 3px solid var(--quaternary);
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.deployed-link:hover,
+.github-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+  transform: translateY(-2px);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Responsive Styling */
 @media screen and (max-width: 1131px) {
-  .image {
+  .project-image {
     width: 100%;
   }
 
+  .card-title {
+    font-size: 22px;
+  }
 }

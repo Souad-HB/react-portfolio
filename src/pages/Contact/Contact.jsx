@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-
+import photo from "../../assets/images/FWOB.png";
 const Contact = () => {
   const form = useRef();
 

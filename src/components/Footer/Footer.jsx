@@ -2,11 +2,19 @@ import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
-
 const Footer = () => {
   return (
     <footer className="footer-container">
-      <p style={{ textAlign: "center", color: "var(--primary)", letterSpacing: "2px", margin: "auto"}}>© 2024 Souad Hassen</p>
+      <p
+        style={{
+          textAlign: "center",
+          color: "var(--primary)",
+          letterSpacing: "2px",
+          margin: "auto",
+        }}
+      >
+        © 2025 Souad Hassen
+      </p>
       <div>
         <a
           className="social-link"

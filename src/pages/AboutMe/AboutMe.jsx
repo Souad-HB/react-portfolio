@@ -4,10 +4,10 @@ import photo from "../../assets/images/photo.jpg";
 const AboutMe = () => {
   return (
     <div style={{ paddingTop: "20px" }}>
-      <h3>Full Stack Developer</h3>
-      <img src={photo} alt="Photo of Souad" />
+      <h3 style={{ paddingBottom: "10px" }}>Full Stack Developer</h3>
+      <img src={photo} alt="Photo of Souad" className="image" />
       <div>
-        <p className="text-2xl text-teal-200">
+        <p style={{ paddingTop: "15px", paddingBottom: "10px" }}>
           A 29-year-old software development professional with a background in
           Mechatronics Engineering and a proven track record in robotics and
           software engineering. After earning my degree in Tunisia and
